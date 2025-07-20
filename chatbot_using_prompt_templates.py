@@ -4,6 +4,9 @@ Let's create a prompt template here. It will take in two user variables:
 language: The language to translate text into
 text: The text to translate
 """
+
+# Doc URL : https://python.langchain.com/docs/tutorials/llm_chain/
+
 import os
 import getpass
 from langchain_core.prompts import ChatPromptTemplate
